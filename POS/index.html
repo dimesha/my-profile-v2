@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DimeshaPOS</title>
+    <link rel="stylesheet" href="start.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+
+    <style>
+ .maintittle {
+
+     animation-duration: 0.75s;
+     animation-name: flipOutX;
+     backface-visibility: visible !important;
+     /*animation-iteration-count: revert;*/
+ }
+ @keyframes flipOutX {
+     from {
+         -webkit-transform: perspective(400px);
+         transform: perspective(400px);
+     }
+
+     30% {
+         -webkit-transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+         transform: perspective(400px) rotate3d(1, 0, 0, -20deg);
+         opacity: 1;
+     }
+
+     to {
+         -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+         transform: perspective(400px) rotate3d(1, 0, 0, 90deg);
+         opacity: 0;
+     }
+ }
+
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+     <div class="row">
+     <div class="logo">
+         <img src="img/coffee-logo.jpg" style="width: 5rem;border-radius: 100%;margin-top: 10px">
+
+     </div>
+
+
+     <ul class="main-nav">
+
+         <li class="active"><a href="index.html">Home</a> </li>
+         <li><a href="Cust.html">Customer</a> </li>
+         <li><a href="Item3.html">Item</a> </li>
+         <li><a href="Order3.html">Order</a> </li>
+         <li><a href="settings.html">Setting</a> </li>
+     </ul>
+ </div>
+        <h1 style="text-align: center;-webkit-text-fill-color: azure;padding-top: 168px;font-size: 2rem" class="maintittle">Welcome to coffee Shop</h1>
+    </header>
+
+<div id="tile_area">
+    <table align="center">
+        <tr>
+            <td>
+                <a href="Cust.html">
+                    <div class="dashboard_tile">
+
+                        <aside>CUSTOMER</aside>
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="Order3.html">
+                    <div class="dashboard_tile">
+                        <aside>ORDER</aside>
+                        <i class="fas fa-cart-arrow-down"></i>
+
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="Item3.html">
+                    <div class="dashboard_tile">
+                        <aside>ITEM</aside>
+                        <i class="fas fa-box"></i>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="settings.html">
+                    <div class="dashboard_tile">
+                        <aside>SETTINGS</aside>
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
+
+
+<div id="wrapper">
+    <section class="mainTitle">
+        <label>Annual Sales</label>
+        <label class="sub">Jan 2018 - Dec 2019</label>
+    </section>
+    <hr style="background-color: black">
+    <div id="chart_box">
+        <div class="chart_name"><label>Revenue $1522</label></div>
+        <img class="img" src="img/chart%2001.jpeg" >
+        <div class="chart_name"><label>Product Wise Revenue</label></div>
+        <img class="img" src="img/chart%2002.jpeg" >
+        <div class="chart_name"><label>Orders</label></div>
+        <img class="img" src="img/chart%2003.jpeg">
+    </div>
+</div>
+
+
+
+<hr>
+<footer class="container">
+    <p class="float-right"><a href="#">Back to top</a></p>
+    <p style="-webkit-text-fill-color: #1d2124; font-weight: bold">&copy; Developed by Dimesha Wijerathna @ IJSE &middot; </p>
+</footer>
+
+</body>
+</html>

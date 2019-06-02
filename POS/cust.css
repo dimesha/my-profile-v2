@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    /*background: url("img/wallpap2.jpg");*/
+    background-size: cover;
+    height: 100vh;
+}
+.wrapper{
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+
+}
+.customer{
+    max-width:550px ;
+    margin-left: 60px ;
+    background:linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)) greenyellow;
+    padding:30px ;
+    border-radius:5px ;
+    display: flex;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.13);
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;
+
+}
+.input-field,
+.msg{
+    width: 48%;
+}
+.input-field input,
+.msg textarea
+{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #c5ecfd;
+    padding: 10px;
+    color: #c5ecfd;
+    width: 100%;
+}
+.msg textarea{
+    height: 212px;
+}
+::-webkit-input-placeholder{
+    color: #ffea00;
+}
+.btn{
+    background:#39b7dd;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+/*header{*/
+    /*height:20vh;*/
+    /*background-size: cover;*/
+    /*!*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/customer.png) center;*!*/
+
+/*}*/
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-top:30px ;
+}
+.main-nav li{
+    display: inline-block;
+}
+.main-nav li a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family:  monospace;
+    font-size: 15px;
+}
+
+.main-nav li.active a{
+    border: 1px solid white;
+}
+
+
+.main-nav li a:hover{
+    border: 1px solid white ;
+    margin-left: 5px;
+}
+
+.logo{
+    float: left;
+
+}
+
+table.form-table thead{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)) greenyellow;
+    color: white;
+}
+
+table.form-table tbody{
+    background-color: #a1887f;
+
+}
+.form-table{
+    width: 100%;
+    border-color: white;
+    margin-top: 30px;
+    /*margin-left: 80px;*/
+
+
+
+}
+
+.btn-red{
+    background:linear-gradient(#39b7dd,aqua,cyan);
+}
+
+.btn-red:hover{
+    background: #d32f2f;
+}
+
+.btn-green{
+    background:linear-gradient(#39b7dd,aqua,cyan);
+}
+
+.btn-green:hover{
+    background: #7cb342;
+}
+
+.btn-blue{
+    background:linear-gradient(#39b7dd,aqua,cyan);
+}
+
+.btn-blue:hover{
+    background: #1565c0;
+}
+
+.btn-yellow{
+    background:linear-gradient(#39b7dd,aqua,cyan);
+}
+
+.btn-yellow:hover{
+    background: #ffea00;
+}
+.form-element{
+
+    border: 1px solid gray;
+    font-size: 1.01em;
+    margin-left: 5px;
+    margin-right: 5px;
+    box-shadow: 1px 1px 5px lightgray;
+
+}
+
+.form-text{
+    padding: 7px;
+}
+.form-select{
+
+    padding: 8px 27px 7px 37px;
+    margin-right: 10px;
+}
+#bottom-buttons{
+    text-align: center;
+    margin-top: 400px;
+    margin-right: 700px;
+
+
+}
+#cus_btn{
+    float: right;
+}
+#search-customer-txt{
+    margin-left: 5px;
+}
+#txtSearch{
+    width: 250px
+}
+#search-box-area{
+    float: right;
+}
+.form-label{
+    font-weight: bold;
+
+
+}
+.sub-content-area {
+    float: right;
+
+    padding-top: 10px;
+
+    padding-right: 125px
+}
+.tbl1{
+    width: 50%;
+    border-color: white;
+    float:right;
+    margin-top: 40px;
+    padding-right: 30px;
+
+}
+/*header{*/
+    /*height:50vh;*/
+    /*background-size: cover;*/
+    /*background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/navbarimage.jpg) center;*/
+
+/*}*/
+section{
+height:25vh;
+background-size: cover;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/navbarimage.jpg) center;
+
+}
+.title-main-area{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 35px;
+    padding: 4px;
+    background: linear-gradient(to top, chartreuse, transparent);
+    color: white;
+    text-shadow: 0 0 10px black;
+    border-radius: 5px 0 0 0px;
+    margin-top: 10px;
+}
